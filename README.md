@@ -48,3 +48,7 @@ server.listen(port, () => console.log(`Server listening on ${port}`));
 ```
 
 12. `node index.js` run the server as a sanity check
+
+13. `npm i -D nodemon` install nodemon as dev dependency
+14. Add this line to your "scripts" key in the package.json file `"server": "nodemon"`
+15. Use `npm run server` to use start your server using nodemon.
