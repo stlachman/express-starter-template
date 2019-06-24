@@ -52,3 +52,7 @@ server.listen(port, () => console.log(`Server listening on ${port}`));
 13. `npm i -D nodemon` install nodemon as dev dependency
 14. Add this line to your "scripts" key in the package.json file `"server": "nodemon"`
 15. Use `npm run server` to use start your server using nodemon.
+16. Add knex and sqlite3 `npm i knex sqlite3`
+17. Create knex configuration file with the following command `npx knex init`
+18. Create a data folder for all of your database specific logic `mkdir database`
+19. Update knexfile (configuration file) to handle migrations and database specific requirements (e.g. foreign key enforcement)
